@@ -1,0 +1,68 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.AppTitle {
+    text-align: center; 
+  }
+
+h2{
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.WeatherContainer {
+  background-color: #90c4d1;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 400px;
+  height: 500px; 
+  text-align: center;
+  box-shadow: 0 20px 20px rgb(96, 151, 155);
+  box-sizing: border-box;
+  color: white;
+}
+
+.WeatherIcon {
+  width: 50px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.WeatherText {
+  font-weight: bold;
+  font-size: 12px;
+  margin: 0px;
+}
+
+.WeatherTextDesc{
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.WeatherTextTemp {
+    font-size:60px;
+    margin-top: 0px;
+}
+
+.SearchInput {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+.SearchButton {
+    padding: 10px 20px;
+    background-color: #869ac4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+  
+.SearchButton:hover {
+    background-color: #008cff;
+}
